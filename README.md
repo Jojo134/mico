@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Jojo134/mico.svg?branch=master)](https://travis-ci.org/Jojo134/mico)
+[![Build Status](https://travis-ci.com/Jojo134/mico.svg?branch=master)](https://travis-ci.com/Jojo134/mico)
 
 # MICO
 
