@@ -16,6 +16,6 @@ cache:
     - $HOME/.m2
 deploy:
   provider: script
-  script: cd mico-core && docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD && docker build -t ustmico/mico-core:latest .
+  script: cd mico-core && docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD && docker build -f Dockerfile.mico-core -t ustmico/mico-core:latest .
   on:
     branch: master
